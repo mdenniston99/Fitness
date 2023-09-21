@@ -18,7 +18,9 @@ figure,
 figcaption,
 section,
 article,
-aside {
+aside,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -31,11 +33,14 @@ body {
 
 /* Style rule for moblie viewport*/
 
-img {
+img,
+video {
   max-width: 100%;
   display: block;
 }
-
+video {
+  margin: 0 auto 4%;
+}
 /* style rule for box sizing applies to all elements */
 
 * {
